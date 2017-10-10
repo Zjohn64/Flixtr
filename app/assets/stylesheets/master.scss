@@ -1,1 +1,16 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.navbar {
+  background: image_url('burried.png');
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: "Indie Flower", sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  color: #ef6f00;
+}
