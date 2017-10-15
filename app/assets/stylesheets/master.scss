@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Khand');
 
 .navbar {
   background: image_url('burried.png');
@@ -48,4 +49,17 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
 	border-radius: 10;
+}
+
+.feature {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+body {
+	background: image_url('mochaGrunge.png');
+	font-family: 'Khand', sans-serif;
 }
