@@ -20,4 +20,12 @@
 		 	<%= @course.description %>
 		 </div>
 	</div>
+	<br />
+	<ul>
+		<% @course.sections.each do |section| %>
+			<li>
+				<%= section.title %>
+			</li>
+		<% end %>
+	</ul>
 </div>
