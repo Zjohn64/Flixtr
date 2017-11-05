@@ -21,11 +21,21 @@
 		 </div>
 	</div>
 	<br />
-	<ul>
+
+	<div class="col-12">
 		<% @course.sections.each do |section| %>
-			<li>
+			<div class="section">
 				<%= section.title %>
-			</li>
+				<%section.lessons.each do |lesson| %>
+					<div class="lesson">
+						<%= link_to lesson_path(lesson) do %>
+							<b><%= lesson.title %></b>
+							-
+							<%= lesson.subtitle %>
+						<% end %>
+					</div>
+				<% end %>
+			</div>
 		<% end %>
-	</ul>
+	</div>
 </div>
